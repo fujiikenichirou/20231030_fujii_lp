@@ -52,11 +52,23 @@ a {
     font-size: 2vw;
 }
 
+.news {
+    margin: 50px auto 50px;
+}
 .news-title {
     color: rgb(227, 15, 124);
     font-family: fantasy;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .news-title__botom {
-    font-size: 3vw;
+    font-size: 2vw;
+}
+.color-red {
+    width: 100px;
+    padding: 0;
+    color: #fff;
+    border-radius: 30px;
+    background: rgb(227, 15, 124);
+    text-align: center;
+    margin: 0 auto 0;
 }
