@@ -146,6 +146,13 @@ a {
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.box1-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .box1__image {
     display: block;
@@ -154,8 +161,8 @@ a {
     margin: 0 auto;
 }
 .box1__title {
-    width: 15vw;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
     color: white;
 }
 .box1__text {
@@ -327,24 +334,31 @@ table th {
     transform: translate(-50%, -50%);
     font-size: 3vw;
     color: white;
+    top: 50%;
+    left: 50%;
 }
 .block-2 {
     width: 50%;
+    position: relative;
 }
 .interview-image {
     display: block;
     width: 100%;
 }
 .block-title2 {
+    position: absolute;
     transform: translate(-50%, -50%);
     font-size: 3vw;
     color: white;
+    top: 50%;
+    left: 50%;
 }
 .info {
     color: rgb(105, 105, 105);
     width: 50vw;
     margin: 5vh auto;
     font-size: 2vw;
+    text-align: center;
 }
 .info-button {
     width: 200px;
@@ -365,7 +379,7 @@ footer {
 }
 small {
     font-size: 1.5vw;
-    width: 80%;
+    width: 100%;
     text-align: center;
     display: block;
 }
