@@ -356,9 +356,15 @@ table th {
 .info {
     color: rgb(105, 105, 105);
     width: 50vw;
-    margin: 5vh auto;
+    margin: 3vh auto;
     font-size: 2vw;
     text-align: center;
+}
+.line {
+    background: rgb(255, 0, 136);
+    width: 3px;
+    height: 50px;
+    margin: 0 auto 10px;
 }
 .info-button {
     width: 200px;
